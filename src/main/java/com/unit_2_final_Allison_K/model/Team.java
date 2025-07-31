@@ -14,4 +14,5 @@ public class Team {
     @GeneratedValue (strategy = jakarta.persistence.GenerationType.IDENTITY)
     private Long id; // team's unique identifier
     private String name; // team's name
+    private String division; // team's division
 }
